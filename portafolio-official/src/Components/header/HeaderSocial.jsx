@@ -1,7 +1,7 @@
 import React from 'react'
 import{BsLinkedin, BsInstagram} from 'react-icons/bs'
 import './header.css'
-
+import{IoLogoGooglePlaystore} from 'react-icons/io5'
 import{AiFillGithub} from 'react-icons/ai'
 
 
@@ -16,6 +16,8 @@ return (
         
         <a href="https://www.instagram.com/maresp95/" target={'_blank'}><BsInstagram/></a>
         
+        <a href="https://play.google.com/store/apps/developer?id=Mario+Esteban+Espitia+Martinez" target={'_blank'}><IoLogoGooglePlaystore/></a>
+
     </div>
     )
 }
