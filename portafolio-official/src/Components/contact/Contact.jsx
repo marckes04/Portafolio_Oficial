@@ -3,8 +3,18 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import{RiMessengerLine} from 'react-icons/ri'
 import{BsWhatsapp} from 'react-icons/bs'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_cu7sjlp', 'template_eog2f5i', form.current, 'JtiLeM_LtUeBrrNir')
+    };
+
     return (
         <section id='Contact'>
 
@@ -32,7 +42,7 @@ const Contact = () => {
 
                 </div>
                 {/*END OF CONTACT OPTION*/}
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name'  required/>
                     <input type="email" name='email' placeholder='Your Email' required/>
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
