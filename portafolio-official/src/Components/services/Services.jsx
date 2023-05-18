@@ -16,27 +16,27 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Puzzle 2D Games</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p> 2D RPG Games</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Adventure 3D Games</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Platformer 2D Games</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>3D First Person Game</p>
                         </li>
                     </ul>
                 </article>
@@ -50,27 +50,22 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Web server</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Company Architecture</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Landscapes</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </li>
-
-                        <li>
-                            <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Website Style</p>
                         </li>
                     </ul>
                 </article>
@@ -84,27 +79,27 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Machine Learning</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Smart Data</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Big data</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Data Science</p>
                         </li>
 
                         <li>
                             <BiCheck className='service-list-icon'/>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Data Mining</p>
                         </li>
                     </ul>
                 </article>
